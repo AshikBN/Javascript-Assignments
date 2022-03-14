@@ -8,7 +8,7 @@ function getEven(arr) {
         Write you code below
     */
    let result=[]
-   for (let i = 0; i < arr.lenght;i++) {
+   for (let i = 0; i < arr.length;i++) {
             if(arr[i]%2 ===0){
                 result.push(arr[i])
             }
@@ -16,6 +16,7 @@ function getEven(arr) {
    }
    return result
 
+   
 }
 
 function multiplyByN(arr, n) {
