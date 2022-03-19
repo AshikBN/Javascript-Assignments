@@ -7,7 +7,7 @@ btn.addEventListener('click',function(){
     count+=1
     let todo=document.createElement('p')
     todo.innerHTML=input.value
-    todo.style.cursor='pointer'
+    //todo.style.cursor='pointer'
     todo.setAttribute("key",count)
     todos.appendChild(todo)
     todo.addEventListener('click',function(){
